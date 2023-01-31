@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Main from "./main";
+import Main from "./pages/main";
 import BatteryStatus from "./pages/battery-status";
 import Daily from "./pages/daily";
 import Event from "./pages/event";
@@ -23,4 +23,4 @@ export default function App() {
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+ReactDOM.createRoot(document.getElementById('root'));
