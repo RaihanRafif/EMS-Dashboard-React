@@ -19,7 +19,7 @@ function Sidebar() {
                 <i className='bx bx-menu' id="btn"><FontAwesomeIcon icon={faBars} /></i>
             </div>
             <ul className="nav-list">
-                <li onclick="openTab(event, 'battery-status')">
+                <li onClick="openTab(event, 'battery-status')">
                     <Link to="/">
                         <a>
                             <i className="fa-solid fa-battery-empty  fa-2xl"></i>
@@ -28,7 +28,7 @@ function Sidebar() {
                         <span className="tooltip">Battery Status</span>
                     </Link>
                 </li>
-                <li onclick="openTab(event, 'daily-report')">
+                <li onClick="openTab(event, 'daily-report')">
                     <Link to="/daily">
                         <a >
                             <i className="fa-solid fa-calendar-day  fa-2xl"></i>
@@ -37,7 +37,7 @@ function Sidebar() {
                         <span className="tooltip">Daily</span>
                     </Link>
                 </li>
-                <li onclick="openTab(event, 'monthly-report')">
+                <li onClick="openTab(event, 'monthly-report')">
                     <Link to="/monthly">
                         <a >
                             <i className="fa-solid fa-calendar-days  fa-2xl"></i>
@@ -46,7 +46,7 @@ function Sidebar() {
                         <span className="tooltip">Monthly</span>
                     </Link>
                 </li>
-                <li onclick="openTab(event, 'yearly-report')">
+                <li onClick="openTab(event, 'yearly-report')">
                     <Link to="/yearly">
                         <a >
                             <i className="fa-solid fa-calendar  fa-2xl"></i>
@@ -55,7 +55,7 @@ function Sidebar() {
                         <span className="tooltip">Yearly</span>
                     </Link>
                 </li>
-                <li onclick="openTab(event, 'events')">
+                <li onClick="openTab(event, 'events')">
                     <Link to="/event">
                         <a >
                             <i className="fa-solid fa-calendar-check  fa-2xl"></i>
